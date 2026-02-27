@@ -14,9 +14,11 @@ int main(void){
 	char hex[9];
 	
 	printf("Enter a hexadecimal:");
+	scanf("%x", &hex[9])
 
 	// if input contains invalid hex digit
 	// printf("Error: Invalid Hexadecimal\n");
+	
 	
 	// print the decimal result
 	printf("decimal:%ld\n", decimal);
